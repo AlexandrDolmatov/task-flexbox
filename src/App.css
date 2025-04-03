@@ -13,18 +13,18 @@ body,
     align-items: flex-start;
 }
 
-.circle {
+.flex-container div {
     width: 100px;
     height: 100px;
     background-color: #daa520;
     border-radius: 50%;
 }
 
-.circle:nth-child(2),
-.circle:nth-child(4) {
+.flex-container div:nth-child(2),
+.flex-container div:nth-child(4) {
     align-self: center;
 }
 
-.circle:nth-child(3) {
+.flex-container div:nth-child(3) {
     align-self: flex-end;
 }
